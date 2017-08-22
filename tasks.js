@@ -18,9 +18,8 @@ switch(command) {
     complete(userInput)
     break
   case 'delete':
-    console.log('bye bye bye')
     removeItem(userInput)
     break
   default:
-    console.log('something else')
+    console.log('please use a valid command')
 }
