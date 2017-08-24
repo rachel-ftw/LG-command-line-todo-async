@@ -24,6 +24,7 @@ const getLastTask = () => {
     return taskList[taslList.length - 1]
   })
 }
+
 getLastTask()
 
 module.exports = {
